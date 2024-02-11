@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="10dp"
+android:background="@color/background_color"
+    android:id="@+id/part1LinearLayoutId"
+tools:context=".Part1Activity">
+
+<ExpandableListView
+    android:id="@+id/part1ExpandebleListViewId"
+    android:layout_width="match_parent"
+    android:dividerHeight="2dp"
+    android:childDivider="@color/colorAccent"
+    android:layout_height="match_parent"
+    />
+</LinearLayout>

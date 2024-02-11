@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/milkCheckBoxId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Milk"
+        android:textSize="28sp"
+        />
+    <CheckBox
+        android:id="@+id/SugarCheckBoxId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Sugar"
+        android:textSize="28sp"
+        android:checked="true"
+        />
+    <CheckBox
+        android:id="@+id/WaterCheckBoxId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Water"
+        android:textSize="28sp"
+        />
+    <Button
+        android:id="@+id/buttonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#ff2"
+        android:background="@color/colorPrimaryDark"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/textViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="italic"/>
+</LinearLayout>

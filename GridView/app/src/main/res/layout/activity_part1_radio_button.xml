@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:id="@+id/Part1RadioButtonActivityId"
+    tools:context=".Part1RadioButtonActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Radio Button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        />
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:padding="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#ff2"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+       <RadioGroup
+           android:layout_width="wrap_content"
+           android:orientation="horizontal"
+           android:id="@+id/part1RadioGroupId"
+           android:layout_height="wrap_content">
+           <RadioButton
+               android:id="@+id/Part1MaleButtonId"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Male"
+               style="@style/buttonStyle"
+               android:checked="true"
+               android:layout_marginRight="10dp"
+               android:foreground="?android:attr/selectableItemBackground"/>
+           <RadioButton
+               android:id="@+id/Part1FemaleButtonId"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Female"
+               style="@style/buttonStyle"
+               android:layout_marginLeft="10dp"
+               android:backgroundTint="@color/black"
+               android:foreground="?android:attr/selectableItemBackground"/>
+
+       </RadioGroup>
+    </LinearLayout>
+</LinearLayout>

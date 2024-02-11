@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/background_color"
+    android:gravity="center"
+    android:id="@+id/Part3ActivityId"
+    tools:context=".Part3Activity">
+    <AnalogClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"/>
+
+        <Button
+            android:id="@+id/part3ExplicitButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Explicit Intent"
+            android:drawableLeft="@drawable/fiveicon"
+            style="@style/buttonStyle"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:background="@drawable/circlebackground"/>
+    <Button
+        android:id="@+id/part3ImplicitButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Implicit Intent"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/fiveicon"
+            style="@style/buttonStyle"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:background="@drawable/circlebackground"/>
+   <Button
+        android:id="@+id/part3ActivityForResultButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Activity For Result"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/fiveicon"
+            style="@style/buttonStyle"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:background="@drawable/circlebackground"/>
+
+</LinearLayout>

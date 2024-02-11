@@ -1,0 +1,278 @@
+<resources>
+    <string name="app_name">Android App</string>
+    <string name="id_hint">Enter your ID</string>
+    <string name="password_hint">Enter your Password</string>
+    <string name="name_hint">Enter your Name</string>
+    <string name="age_hint">Enter your Age</string>
+    <string name="gender_hint">Enter your Gender</string>
+    <string name="email_hint">Enter your E-mail</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <!--Part1 String Start-->
+    <string-array name="androidFundamentalText">
+        <item>1. Introduction of Android</item>
+        <item>2. History of Android</item>
+        <item>3. Features of Android</item>
+        <item>4. Android Version</item>
+        <item>5. Required Software</item>
+        <item>6. View and View Group</item>
+        <item>7. Android Tricks</item>
+
+    </string-array>
+    <string name="androidtricksText"><li>For Single Line Comments : \nPress » Ctrl + /</li>\n
+        \n<li>For Multiple Line Comments : \nPress » Ctrl + Shift + /\n</li>
+        \n<li>For Closing tag :\nPress » /\n</li>
+        \n<li>For View Group Closing Tag :\nPress » >\n</li>
+        \n<li>For Change all Variable Name at a time :\nPress » Shift + F6 + F6\n</li>
+        \n<li>For Create Constructor :\nPress » Shift + Shift\n</li>
+        \n<li>For Search anything :\nPress » Shift + Shift\n</li>
+
+    </string>
+    <string name="androidDefinitionText"><ul><li>Android is a mobile operating system developed by Google, based on the Linux kernel.\n\n</li>
+            <li>Used for Smartphone, Tablet, Computers, TV.\n\n</li>
+            <li>Owned by American company, Google.</li>
+        </ul>
+
+    </string>
+    <string name="androidHistoryText"><ul><li>Initially developed by Android Inc., Which Google bought in 2005 Android was unveiled in 2007.\n\n</li>
+            <li>Android is the nick name of Andy Rubin given by coworkers.\n\n</li>
+            <li>In 2008, HTC launched the first android mobile.</li>
+        </ul>
+
+    </string>
+    <string name="androidFeaturesText">1. Phone call service.\n2. Message Service.\n3. Screen Capture.\n4. Multiple Language Support.\n5. Multitasking.\n6. Support wireless communications Wi-Fi, Bluetooth, 3G, 4G.
+    </string>
+    <string name="androidRequiredSoftwareText">
+           <span>
+               i. JDK- Java Development Kit.\n
+              ii. Android Studio Manager.\n
+             iii. SDK.\n
+              iv. Netbeans / Eclipse (Optional).
+           </span>
+    </string>
+    <!--Part1 String End-->
+
+    <!--Part2 String Start-->
+    <string name="scrollViewText">I am a student of ICE at
+			Pabna university of science and technology. My  fathers name is Mohammad Ali.My
+			Mothers name is Most. Sultana Raziya.\n\nI live in Bangladesh. Bangladesh is my favourite country
+			because Bangladesh is my homeland and they have many beautiful place.\n\n We want to bring it to the notice of the concerned authority that mosquito menace has increased in our locality. Mosquitoes breed freely
+in the dirty water of the drains and dither hr fhu tge the morning and in the focus of our country .\n\nLaptop is a electronic device. it
+is most helpful of our digital country. benefit our laptop  it can possible.</string>
+
+    <string name="autoLinkText">\n
+        E-mail   : rahatul.ice.09.pust@gmail.com\n
+        Facebook : http://www.facebook.com\n
+        Phone    : +8801790-224950
+
+    </string>
+    <string-array name="part1hints">
+        <item>1.1 View</item>
+        <item>1.2 Text View</item>
+        <item>1.3 Image View</item>
+        <item>1.4 Scroll View</item>
+        <item>1.5 Video View</item>
+        <item>1.6 Web View</item>
+        <item>2.1 Button</item>
+        <item>2.2 Image Button</item>
+        <item>2.3 Radio Button</item>
+        <item>2.4 Check Box</item>
+        <item>2.5 Switch</item>
+        <item>3.1 Edit Text</item>
+        <item>3.2 Text Area</item>
+        <item>4.1 Rating Bar</item>
+        <item>4.2 Seek Bar</item>
+        <item>4.3 Progress Bar Vertical</item>
+        <item>4.4 Progress Bar Horizontal</item>
+        <item>5.1 Date Picker</item>
+        <item>5.2 Date Picker Dialog</item>
+        <item>5.3 Time Picker</item>
+        <item>5.4 Time Picker Dialog</item>
+        <item>5.5 Alert Dialog</item>
+        <item>6.1 Analog Clock</item>
+        <item>6.2 Digital Clock</item>
+        <item>6.3 Text Clock</item>
+        <item>7.1 Toast</item>
+        <item>7.2 Custom Toast</item>
+        <item>8.1 Zoom Control</item>
+        <item>9.1 Auto Link</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--Part2 String End-->
+
+    <!--Part3 String Start-->
+    <string name="bangladesh_text">
+        Bangladesh is my Favourite country. I live in Bangladesh. Bangladesh is my Homeland.
+        \n\nThey have many beautiful place. Bangladesh is a small country in the word.
+        \n\nI am a student of ICE at
+			Pabna university of science and technology. My  fathers name is Mohammad Ali.My
+			Mothers name is Most. Sultana Raziya.I live in Bangladesh. Bangladesh is my favourite country
+			because Bangladesh is my homeland and they have many beautiful place.
+        \n\nWe want to bring it to the notice of the concerned authority that mosquito menace has increased in our locality. Mosquitoes breed freely
+            in the dirty water of the drains and dither hr fhu tge the morning and in the focus of our country .\n\nLaptop is a electronic device. it
+            is most helpful of our digital country. bendite our laptop  it can possible.
+
+    </string>
+    <string name="india_text">
+        India is my Favourite country. I live in India. India is my Homeland.
+        \n\nThey have many beautiful place. India is a large country in the word.
+        \n\nI am a student of ICE at
+			Pabna university of science and technology. My  fathers name is Mohammad Ali.My
+			Mothers name is Most. Sultana Raziya.I live in India. India is my favourite country
+			because India is my homeland and they have many beautiful place.
+        \n\nWe want to bring it to the notice of the concerned authority that mosquito menace has increased in our locality. Mosquitoes breed freely
+            in the dirty water of the drains and dither hr fhu tge the morning and in the focus of our country .\n\nLaptop is a electronic device. it
+            is most helpful of our digital country. bendite our laptop  it can possible.
+    </string>
+    <string name="pakistan_text">
+        Pakistan is my Favourite country. I live in Pakistan. Pakistan is my Homeland.
+        \n\nThey have many beautiful place. Pakistan is a small country in the word.
+        \n\nI am a student of ICE at
+			Pabna university of science and technology. My  fathers name is Mohammad Ali.My
+			Mothers name is Most. Sultana Raziya.I live in Pakistan. Pakistan is my favourite country
+			because Pakistan is my homeland and they have many beautiful place.
+        \n\nWe want to bring it to the notice of the concerned authority that mosquito menace has increased in our locality. Mosquitoes breed freely
+            in the dirty water of the drains and dither hr fhu tge the morning and in the focus of our country .\n\nLaptop is a electronic device. it
+            is most helpful of our digital country. bendite our laptop  it can possible.
+    </string>
+    <!-- Part3 String End-->
+
+    <!-- Part4 String Start-->
+    <string-array name="part4Childtext">
+        <item>1.0 Part-4 Hints</item>
+        <item>1.1  Array Adapter</item>
+        <item>1.2  Base Adapter</item>
+        <item>2.1  Array list View</item>
+        <item>2.2  Custom List View</item>
+        <item>3.1  Search View in Toolbar</item>
+        <item>3.2  Search View in Actionbar</item>
+        <item>4.1  Array Grid View</item>
+        <item>4.2  Custom Grid View</item>
+        <item>5.1  Recycle View</item>
+        <item>6.1  Card View</item>
+        <item>7.1  Auto Complete Text View</item>
+        <item>8.1  Expandable List View</item>
+        <item>9.1  Spinner</item>
+        <item>10.1 Fragment</item>
+        <item>11.1 Media Player</item>
+        <item>12.1 Audio Player</item>
+        <item>13.1 Menu Item</item>
+        <item>14.1 Navigation Drawer</item>
+        <item>15.1 HTML Content</item>
+        <item>16.1 Full Screen Activity</item>
+    </string-array>
+    <string-array name="part4Hintstext">
+        <item>1.1  Array Adapter</item>
+        <item>1.2  Base Adapter</item>
+        <item>2.1  Array list View</item>
+        <item>2.2  Custom List View</item>
+        <item>3.1  Search View in Toolbar</item>
+        <item>3.2  Search View in Actionbar</item>
+        <item>4.1  Array Grid View</item>
+        <item>4.2  Custom Grid View</item>
+        <item>5.1  Recycle View</item>
+        <item>6.1  Card View</item>
+        <item>7.1  Auto Complete Text View</item>
+        <item>8.1  Expandable List View</item>
+        <item>9.1  Spinner</item>
+        <item>10.1 Fragment</item>
+        <item>11.1 Media Player</item>
+        <item>12.1 Audio Player</item>
+        <item>13.1 Menu Item</item>
+        <item>14.1 Navigation Drawer</item>
+        <item>15.1 HTML Content</item>
+        <item>16.1 Full Screen Activity</item>
+    </string-array>
+
+    <string-array name="country_names">
+        <item>Afghanistan</item>
+        <item>Algeria</item>
+        <item>Argentina</item>
+        <item>Austria</item>
+        <item>Azebaijan</item>
+        <item>Bangladesh</item>
+        <item>Belgium</item>
+        <item>Benin</item>
+        <item>Brazil</item>
+        <item>Bulgaria</item>
+        <item>Cabo-verde</item>
+        <item>Canada</item>
+        <item>China</item>
+        <item>Dijbouti</item>
+        <item>Ecuador</item>
+        <item>Ghana</item>
+        <item>Grenada</item>
+        <item>India</item>
+        <item>Japan</item>
+        <item>Kenya</item>
+        <item>Malawi</item>
+        <item>Mauritania</item>
+        <item>Montenegro</item>
+        <item>Pakistan</item>
+        <item>New-Guinea</item>
+        <item>Saudi-Arabia</item>
+    </string-array>
+
+    <string-array name="abbriviation_header_Name">
+        <item>AAC</item>
+        <item>AI</item>
+        <item>ARPANET</item>
+        <item>ALGOL</item>
+        <item>ALU</item>
+        <item>AOL</item>
+        <item>API</item>
+        <item>APT</item>
+        <item>ATM</item>
+        <item>BIOS</item>
+        <item>BMP</item>
+        <item>BIU</item>
+        <item>BLC</item>
+        <item>BPS</item>
+        <item>CC</item>
+        <item>CAI</item>
+        <item>CDMA</item>
+        <item>CRT</item>
+        <item>DNS</item>
+        <item>DML</item>
+        <item>DHTML</item>
+        <item>DVD</item>
+    </string-array>
+    <string-array name="abbriviation_child_Name">
+        <item><b>Advanced Audio Coding</b>
+            \n\nAAC is defined as an Audio Coding which is able to achieve better quality.
+        </item>
+        <item><b>Artificial Intelligence</b>
+        \n\nAI is the programming installed in a machine which help the machine to take.</item>
+        <item><b>Advanced Research Projects Agency Network</b>
+            \n\nARPANET was the first network to implement the protocol suite ICP/IP.</item>
+        <item><b>Algorithmic Language</b>
+        \n\nALGOL is an imperative computer programming language developed by 1950s.</item>
+        <item><b>Arithmetic Logic Unit</b>
+        \n\nALU is defined as a digital circuit which is used to execute arithmetic.</item>
+        <item><b>Arithmetic Online</b>
+        \n\nAOL Inc. is a subsidiary of verizon communication.</item>
+        <item><b>Application Programme Interface</b>
+        \n\nAPI is a set of tools, protocol and subroutine definitions for building</item>
+        <item><b>Automatically Programming tools</b>
+        \n\nAPT is a high-level programming language for computer commonly used to create.</item>
+        <item><b>Asynchronous Transfer Mode</b>
+        \n\nIn ATM data is encoded into small fixed-sized cells by using.</item>
+        <item><b>Basic Input Output System</b></item>
+        <item><b>Bitmap</b>
+        \n\nBMP is basically a graphics image fie format generally used to store digital.</item>
+        <item><b>Bus Interface Unit</b></item>
+        <item><b>Business to Consumer</b></item>
+        <item><b>Byte Per Second</b></item>
+        <item><b>Carbon Copy</b></item>
+        <item><b>Computer Aided Instruction.</b></item>
+        <item><b>Code Division Multiple Access.</b></item>
+        <item><b>Cathode Ray Tube</b></item>
+        <item><b>Domain Name System.</b></item>
+        <item><b>Data Manipulation Language</b></item>
+        <item><b>Dynamic Hyper Text Markup Language.</b></item>
+        <item><b>Digital Versatile Disk</b></item>
+    </string-array>
+    <string name="copyRightText">CopyRight Rahatul Islam 05/11/2020
+    </string>
+</resources>

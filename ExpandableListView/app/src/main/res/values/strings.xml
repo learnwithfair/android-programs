@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">ExpandableListView</string>
+    <string-array name="header_Name">
+        <item>AAC</item>
+        <item>AI</item>
+        <item>ARPANET</item>
+        <item>ALGOL</item>
+        <item>ALU</item>
+        <item>AOL</item>
+        <item>API</item>
+        <item>APT</item>
+        <item>ATM</item>
+        <item>BIOS</item>
+        <item>BMP</item>
+        <item>BIU</item>
+        <item>BLC</item>
+        <item>BPS</item>
+        <item>CC</item>
+        <item>CAI</item>
+        <item>CDMA</item>
+        <item>CRT</item>
+        <item>DNS</item>
+        <item>DML</item>
+        <item>DHTML</item>
+        <item>DVD</item>
+    </string-array>
+    <string-array name="child_Name">
+        <item>
+            <item><b>Advanced Audio Coding</b>
+                \n\nAAC is defined as an Audio Coding which is able to achieve better quality.</item>
+            <item>\nThis is Md Rahatul Islam</item>
+
+        </item>
+        <item><b>Artificial Intelligence</b>
+        \n\nAI is the programming installed in a machine which help the machine to take.</item>
+        <item>
+           <b>Advanced Research Projects Agency Network</b>
+            \n\nARPANET was the first network to implement the protocol suite ICP/IP.</item>
+        <item><b>Algorithmic Language</b>
+        \n\nALGOL is an imperative computer programming language developed by 1950s.</item>
+        <item><b>Arithmetic Logic Unit</b>
+        \n\nALU is defined as a digital circuit which is used to execute arithmetic.</item>
+        <item><b>Arithmetic Online</b>
+        \n\nAOL Inc. is a subsidiary of verizon communication.</item>
+        <item><b>Application Programme Interface</b>
+        \n\nAPI is a set of tools, protocol and subroutine definitions for building</item>
+        <item><b>Automatically Programming tools</b>
+        \n\nAPT is a high-level programming language for computer commonly used to create.</item>
+        <item><b>Asynchronous Transfer Mode</b>
+        \n\nIn ATM data is encoded into small fixed-sized cells by using.</item>
+        <item><b>Basic Input Output System</b></item>
+        <item><b>Bitmap</b>
+        \n\nBMP is basically a graphics image fie format generally used to store digital.</item>
+        <item><b>Bus Interface Unit</b></item>
+        <item><b>Business to Consumer</b></item>
+        <item><b>Byte Per Second</b></item>
+        <item><b>Carbon Copy</b></item>
+        <item><b>Computer Aided Instruction.</b></item>
+        <item><b>Code Division Multiple Access.</b></item>
+        <item><b>Cathode Ray Tube</b></item>
+        <item><b>Domain Name System.</b></item>
+        <item><b>Data Manipulation Language</b></item>
+        <item><b>Dynamic Hyper Text Markup Language.</b></item>
+        <item><b>Digital Versatile Disk</b></item>
+    </string-array>
+
+</resources>

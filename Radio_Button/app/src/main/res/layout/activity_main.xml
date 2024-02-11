@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your gender :"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="34sp"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/maleId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Male"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@android:color/black"/>
+        <RadioButton
+            android:id="@+id/femaleId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Female"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:checked="true"
+            android:padding="10dp"
+            android:textColor="@android:color/black"/>
+        <RadioButton
+            android:id="@+id/otherId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Other"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@android:color/black"/>
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/buttonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="24sp"
+        android:textColor="#ff2"
+        android:textStyle="bold"
+        android:background="@color/colorPrimaryDark"
+        />
+    <TextView
+        android:id="@+id/textViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        />
+
+</LinearLayout>

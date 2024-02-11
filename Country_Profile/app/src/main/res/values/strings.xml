@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Country_Profile</string>
+    <string name="bangladesh_text">
+        Bangladesh is my Favourite country. I live in Bangladesh. Bangladesh is my Homeland.
+        \n\nThey have many beautiful place. Bangladesh is a small country in the word.
+        \n\nI am a student of ICE at
+			Pabna university of science and technology. My  fathers name is Mohammad Ali.My
+			Mothers name is Most. Sultana Raziya.I live in Bangladesh. Bangladesh is my favourite country
+			because Bangladesh is my homeland and they have many beautiful place.
+        \n\nWe want to bring it to the notice of the concerned authority that mosquito menace has increased in our locality. Mosquitoes breed freely
+            in the dirty water of the drains and dither hr fhu tge the morning and in the focus of our country .\n\nLaptop is a electronic device. it
+            is most helpful of our digital country. bendite our laptop  it can possible.
+
+    </string>
+    <string name="india_text">
+        India is my Favourite country. I live in India. India is my Homeland.
+        \n\nThey have many beautiful place. India is a large country in the word.
+        \n\nI am a student of ICE at
+			Pabna university of science and technology. My  fathers name is Mohammad Ali.My
+			Mothers name is Most. Sultana Raziya.I live in India. India is my favourite country
+			because India is my homeland and they have many beautiful place.
+        \n\nWe want to bring it to the notice of the concerned authority that mosquito menace has increased in our locality. Mosquitoes breed freely
+            in the dirty water of the drains and dither hr fhu tge the morning and in the focus of our country .\n\nLaptop is a electronic device. it
+            is most helpful of our digital country. bendite our laptop  it can possible.
+    </string>
+     <string name="pakistan_text">
+        Pakistan is my Favourite country. I live in Pakistan. Pakistan is my Homeland.
+        \n\nThey have many beautiful place. Pakistan is a small country in the word.
+        \n\nI am a student of ICE at
+			Pabna university of science and technology. My  fathers name is Mohammad Ali.My
+			Mothers name is Most. Sultana Raziya.I live in Pakistan. Pakistan is my favourite country
+			because Pakistan is my homeland and they have many beautiful place.
+        \n\nWe want to bring it to the notice of the concerned authority that mosquito menace has increased in our locality. Mosquitoes breed freely
+            in the dirty water of the drains and dither hr fhu tge the morning and in the focus of our country .\n\nLaptop is a electronic device. it
+            is most helpful of our digital country. bendite our laptop  it can possible.
+    </string>
+
+</resources>

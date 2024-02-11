@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:background="#00A4B3"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search here"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textAlignment="textStart"
+        android:gravity="center"
+        tools:ignore="RtlCompat" />
+    <ListView
+        android:id="@+id/listViewId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="#43D383"
+        android:divider="@null"
+        />
+</LinearLayout>

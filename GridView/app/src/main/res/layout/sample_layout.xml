@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/sampleLayoutId"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#B80BBD"
+        android:layout_margin="5dp"
+        >
+        <ImageView
+            android:id="@+id/flagsimageViewId"
+            android:layout_weight="0.7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/bangladesh"
+            android:padding="2dp"
+            android:layout_margin="5dp"
+            android:background="#DCD9D9"
+            android:scaleType="fitXY"/>
+       <LinearLayout
+           android:layout_weight="2.3"
+           android:layout_width="0dp"
+           android:gravity="center"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+           <TextView
+               android:id="@+id/countryNamesId"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Bangladesh"
+               android:gravity="center"
+               android:textAlignment="center"
+               style="@style/TextAppearance.AppCompat.Large"
+               android:textStyle="bold"
+               android:textColor="#ff2"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Click here see to description..."
+               android:gravity="center"
+               android:textAlignment="center"
+               style="@style/TextAppearance.AppCompat.Small"
+               android:textStyle="italic"
+               android:textColor="@android:color/black"/>
+       </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

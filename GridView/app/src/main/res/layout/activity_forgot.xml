@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/background_color"
+    android:id="@+id/forgotLinearLayoutId"
+    tools:context=".ForgotActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/explicitbackgroundimage"
+        android:scaleType="fitXY"
+        android:background="#ff22"
+        android:padding="3dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/forgotidEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_edit_24"
+            style="@style/roundEditTextStyle"
+            android:background="@drawable/edit_text_background"
+            android:inputType="number"
+            android:hint="     ID"/>
+        <EditText
+            android:id="@+id/forgotemailEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            style="@style/roundEditTextStyle"
+            android:background="@drawable/edit_text_background"
+            android:hint="     E-mail"
+            />
+
+        <Button
+            android:id="@+id/forgotsubmitButtonId"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:drawableLeft="@drawable/ic_baseline_done_24"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circlebackground"
+            style="@style/buttonStyle"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:gravity="center"
+    android:background="#00a4b3"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <AnalogClock
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           >
+
+           <TextView
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:layout_marginTop="3dp"
+               android:text="ID               :"
+               style="@style/textStyle"
+               />
+           <EditText
+               android:layout_width="0dp"
+               android:layout_weight="2"
+               android:inputType="number"
+               android:layout_height="wrap_content"
+               android:id="@+id/idEditTextId"
+               android:hint="Enter your ID"
+               android:backgroundTint="@android:color/black"
+               style="@style/textStyle.editTextStyle"
+               />
+       </LinearLayout>
+        <FrameLayout
+            android:id="@+id/frameLayotId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/frameLayot1Id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Password :"
+                    style="@style/textStyle"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/passwordEditText1Id"
+                    android:hint="Enter your password"
+                    android:backgroundTint="@android:color/black"
+                    android:inputType="textPassword"
+                    android:layout_gravity="start"
+                    android:textAlignment="textEnd"
+                    android:drawableRight="@drawable/ic_baseline_visibility_off_24"
+                    style="@style/textStyle.editTextStyle"
+                    tools:ignore="RtlCompat" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/frameLayot2Id"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Password :"
+                    style="@style/textStyle"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/passwordEditText2Id"
+                    android:hint="Enter your password"
+                    android:backgroundTint="@android:color/black"
+                    android:inputType="textVisiblePassword"
+                    android:layout_gravity="start"
+                    android:textAlignment="textEnd"
+                    android:drawableRight="@drawable/ic_baseline_visibility_24"
+                    style="@style/textStyle.editTextStyle"
+                    tools:ignore="RtlCompat" />
+
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/logInbuttonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textColor="#ff2"
+            android:padding="10dp"/>
+        <Button
+            android:id="@+id/signupbuttonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create account"
+            style="@style/buttonStyle"/>
+        <Button
+            android:id="@+id/forgotbuttonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:text="Forgot password"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/black"
+            android:background="@null"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

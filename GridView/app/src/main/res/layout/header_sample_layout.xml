@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@color/black"
+                >
+                <TextView
+                    android:id="@+id/headerTextViewId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bangladesh"
+                    android:gravity="center"
+                    android:layout_margin="3dp"
+                    android:textStyle="bold"
+                    android:background="#D80E8E"
+                    android:textColor="#ff2"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textAlignment="textStart"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="20dp"
+                    tools:ignore="RtlCompat" />
+            </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/scrollViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scroll View"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textSize="44sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:tooltipText="Scroll View"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:padding="20dp"
+            android:background="#ff22"
+            />
+
+        <TextView
+            android:id="@+id/textViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text"
+            android:layout_marginTop="10dp"
+            android:textSize="28sp"
+            android:textColor="@android:color/black"
+            android:fontFamily="cursive"
+            android:textColorHint="#ff22"
+            android:justificationMode="inter_word"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</ScrollView>

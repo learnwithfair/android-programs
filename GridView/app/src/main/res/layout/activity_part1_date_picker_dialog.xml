@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:id="@+id/Part1DatePickerDialogActivityId"
+    tools:context=".Part1DatePickerDialogActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date Picker Dialog"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        />
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:padding="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#ff2"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/Part1DatePickerDialogTextViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current Date : "
+            android:layout_marginTop="20dp"
+            style="@style/textStyle"/>
+        <Button
+            android:id="@+id/part1DatePickerDialogButtonId"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Set Date"
+            android:layout_marginTop="50dp"
+            android:drawableLeft="@drawable/ic_baseline_calendar_today_24"
+            style="@style/buttonStyle"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:background="@drawable/circlebackground"/>
+    </LinearLayout>
+</LinearLayout>

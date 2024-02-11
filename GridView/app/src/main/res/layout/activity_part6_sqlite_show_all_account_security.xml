@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/background_color"
+    android:id="@+id/Part6SqliteShowAllAccountSecurityActivityId"
+    tools:context=".Part6SqliteShowAllAccountSecurityActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/explicitbackgroundimage"
+        android:scaleType="fitXY"
+        android:background="#ff22"
+        android:padding="3dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/part6SqliteSecurityEditTextusernameId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            style="@style/roundEditTextStyle"
+            android:background="@drawable/edit_text_background"
+            android:inputType="textPersonName"
+            android:hint="     Username"/>
+        <EditText
+            android:id="@+id/part6SqliteSecurityEditTextpasswordId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:drawableRight="@drawable/ic_baseline_visibility_off_24"
+            style="@style/roundEditTextStyle"
+            android:background="@drawable/edit_text_background"
+            android:hint="     Password"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_height="200dp">
+            <Button
+                android:id="@+id/part6SqliteSecurityclearButonId"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Clear"
+               android:drawableLeft="@drawable/ic_baseline_brush_24"
+                android:layout_gravity="center"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/circlebackground"
+                style="@style/buttonStyle"/>
+            <Button
+                android:id="@+id/part6SqliteSecuritysubmitButtonId"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:drawableLeft="@drawable/ic_baseline_security_24"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:background="@drawable/circlebackground"
+                style="@style/buttonStyle"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

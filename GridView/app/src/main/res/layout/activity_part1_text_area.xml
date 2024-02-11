@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:id="@+id/Part1TextAreaActivityId"
+    tools:context=".Part1TextAreaActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text Area"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        />
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:padding="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#ff2"
+        />
+
+        <EditText
+            android:id="@+id/part1EditTextAreaId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/roundEditTextStyle"
+            android:background="@drawable/edit_text_background"
+            android:lines="12"
+            android:gravity="center_horizontal"
+            android:textAlignment="textStart"
+            android:justificationMode="inter_word"
+            android:layout_margin="5dp"
+            android:hint="Write Your Comment.."
+            android:paddingLeft="10dp"
+            tools:ignore="RtlCompat" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="200dp">
+        <Button
+            android:id="@+id/part1EditTextAreaclearButonId"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/circlebackground"
+            android:foreground="?android:attr/selectableItemBackground"
+            style="@style/buttonStyle"/>
+        <Button
+            android:id="@+id/part1EditTextAreasaveButonId"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circlebackground"
+            android:foreground="?android:attr/selectableItemBackground"
+            style="@style/buttonStyle"/>
+    </LinearLayout>
+</LinearLayout>

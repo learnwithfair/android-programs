@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00A4B3"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello I am First Activity"
+       android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+       />
+<Button
+    android:id="@+id/buttonId"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Go to Second Activity"
+    android:layout_marginTop="30dp"
+    android:textSize="28dp"
+    android:textAllCaps="false"
+    android:textStyle="bold"
+    style="@style/Widget.AppCompat.Button.Colored"
+    />
+</LinearLayout>

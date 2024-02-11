@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#F40BDE"
+    android:gravity="center"
+    tools:context=".Part3FirstExplicitActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rahatul"
+        android:layout_marginBottom="100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/circlebackground2"/>
+    <Button
+        android:id="@+id/part3ImplicitBangladeshVisitMeButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visit Me"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#ff2"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:background="@drawable/style_background"
+        />
+    <Button
+        android:id="@+id/part3ImplicitContactMeButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Me"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_baseline_phone_24"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#ff2"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:background="@drawable/style_background"/>
+    <Button
+        android:id="@+id/part3ImpliciLocationMeButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location Me"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#ff2"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:background="@drawable/style_background"/>
+
+</LinearLayout>

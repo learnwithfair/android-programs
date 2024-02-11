@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:weightSum="3"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:id="@+id/Part2ActivityId"
+    tools:context=".Part2Activity">
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <SearchView
+            android:id="@+id/part2FundamentalsearchViewId"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:queryHint="Search"
+            android:gravity="center"
+            android:textAlignment="textStart"
+            tools:ignore="RtlCompat" />
+        <ListView
+            android:id="@+id/part2FundamentallistViewId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:listSelector="#05CC8D"
+            android:background="#00A4B3"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:padding="3dp"
+        android:background="#F1054F"
+        android:layout_weight="2">
+
+        <fragment
+            android:name="com.example.gridview.Part2AndroidIntroductionFragment"
+            android:id="@+id/part2FundamentalfragmentId"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_height="match_parent">
+        </fragment>
+    </LinearLayout>
+
+</LinearLayout>

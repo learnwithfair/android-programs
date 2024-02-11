@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#00a4b3"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:id="@+id/mainActivityLinearLayoutId"
+    tools:context=".MainActivity">
+
+    <AnalogClock
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="3dp"
+                android:text="E-mail       : "
+                style="@style/textStyle"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:inputType="textEmailAddress"
+                android:layout_height="wrap_content"
+                android:id="@+id/emailEditTextId"
+                android:hint="@string/email_hint"
+                android:backgroundTint="@android:color/black"
+                style="@style/textStyle.editTextStyle"
+                />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Password : "
+                    style="@style/textStyle"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/passwordEditTextId"
+                    android:hint="@string/password_hint"
+                    android:backgroundTint="@android:color/black"
+                    android:inputType="textPassword"
+                    android:drawableRight="@drawable/ic_baseline_visibility_off_24"
+                    style="@style/textStyle.editTextStyle"
+                    />
+
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/signInbuttonId"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            style="@style/buttonStyle"
+            android:drawableLeft="@drawable/ic_baseline_security_24"
+            android:background="@drawable/circlebackground"
+           />
+        <Button
+            android:id="@+id/signupbuttonId"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_create_new_folder_24"
+            android:text="Create account"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/circlebackground"
+            style="@style/buttonStyle"/>
+        <Button
+            android:id="@+id/forgotbuttonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textAllCaps="false"
+            android:text="Forgot password"
+            android:background="@null"
+           />
+    </LinearLayout>
+
+
+</LinearLayout>

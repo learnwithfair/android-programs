@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#F40BDE"
+    android:id="@+id/Part5ActivityId"
+    tools:context=".Part5Activity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/explicitbackgroundimage"
+        android:scaleType="fitXY"
+        android:background="#ff22"
+        android:padding="3dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/part5RelativeLayoutButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Relative Layout"
+            android:drawableLeft="@drawable/ic_baseline_emoji_nature_24"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingRight="40dp"
+            android:paddingLeft="40dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#ff2"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:background="@drawable/style_background"/>
+        <Button
+            android:id="@+id/part5TableLayoutButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Table Layout"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_baseline_deck_24"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingRight="40dp"
+            android:paddingLeft="40dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#ff2"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:background="@drawable/style_background"/>
+        <Button
+            android:id="@+id/part5FrameLayoutButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frame Layout"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_baseline_filter_none_24"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingRight="40dp"
+            android:paddingLeft="40dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#ff2"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:background="@drawable/style_background"/>
+         <Button
+            android:id="@+id/part5TabLayoutButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tab Layout"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_baseline_tab_24"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingRight="40dp"
+            android:paddingLeft="40dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#ff2"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:background="@drawable/style_background"/>
+
+    </LinearLayout>
+
+</LinearLayout>

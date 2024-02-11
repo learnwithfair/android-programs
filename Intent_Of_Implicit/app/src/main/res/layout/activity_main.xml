@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+   <Button
+       android:id="@+id/callmeId"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Call Me"
+       style="@style/Widget.AppCompat.Button.Colored"
+       android:textStyle="bold"
+       android:textAppearance="@style/TextAppearance.AppCompat.Large"
+       android:padding="15dp"/>
+<Button
+       android:id="@+id/visitmeId"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Visit Me"
+       style="@style/Widget.AppCompat.Button.Colored"
+       android:textStyle="bold"
+       android:layout_marginTop="10dp"
+       android:textAppearance="@style/TextAppearance.AppCompat.Large"
+       android:padding="15dp"/>
+<Button
+       android:id="@+id/mylocationId"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="My Location"
+       style="@style/Widget.AppCompat.Button.Colored"
+       android:textStyle="bold"
+       android:layout_marginTop="10dp"
+       android:textAppearance="@style/TextAppearance.AppCompat.Large"
+       android:padding="15dp"/>
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:layout_gravity="center"
+    tools:context=".WelcomeActivity">
+   <!-- android:weightSum="3"
+    android:paddingTop="120dp"
+    android:gravity="center"
+    android:background="@drawable/background"-->
+
+
+    <VideoView
+        android:id="@+id/welcomevideoViewId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+  <!-- <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:gravity="center"
+       android:orientation="vertical"
+       android:layout_weight="2">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Android Development"
+           android:textColor="#FF22B5"
+           android:textSize="45sp"
+           android:layout_gravity="center"
+           android:gravity="center"
+           android:textStyle="bold"
+
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Developed"
+           android:textColor="#2226FF"
+           android:textSize="28sp"
+           android:textStyle="bold"
+           android:layout_gravity="center"
+           android:layout_marginTop="20dp"
+            android:fontFamily="cursive"
+
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="by Rahatul islam"
+           android:textColor="#FF2229"
+           android:textSize="24sp"
+           android:textStyle="bold"
+           android:layout_gravity="center"
+           android:textAllCaps="true"
+           />
+
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:gravity="center"
+       android:layout_weight="1">
+       <ProgressBar
+           android:id="@+id/progressbarId"
+           android:layout_width="match_parent"
+           android:layout_height="20dp"
+           android:layout_marginRight="30dp"
+           android:layout_marginLeft="30dp"
+           android:layout_marginBottom="30dp"
+           style="@android:style/Widget.ProgressBar.Horizontal"
+           android:layout_marginTop="80dp"
+           android:backgroundTint="@android:color/white"
+           android:progressTint="#009688"/>
+   </LinearLayout>-->
+</androidx.constraintlayout.widget.ConstraintLayout>

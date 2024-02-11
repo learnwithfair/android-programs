@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Fragment</string>
+    <string-array name="names">
+        <item>Rahatul Islam</item>
+        <item>Hafijul Islam</item>
+        <item>Shaifullah</item>
+        <item>Anisul Islam</item>
+        <item>Sohanur Islam</item>
+        <item>Imran Hosain</item>
+        <item>Mehedi Hasan</item>
+        <item>Masud Rana</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

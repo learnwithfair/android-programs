@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:id="@+id/SignUpActivityId"
+    tools:context=".SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+
+        <EditText
+            android:id="@+id/idEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_edit_24"
+            style="@style/roundEditTextStyle"
+            android:background="@drawable/edit_text_background"
+            android:inputType="number"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:hint="     ID"/>
+        <EditText
+            android:id="@+id/passwordEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:drawableRight="@drawable/ic_baseline_visibility_off_24"
+            style="@style/roundEditTextStyle"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:background="@drawable/edit_text_background"
+            android:hint="     Password"
+            />
+        <EditText
+            android:id="@+id/nameEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            style="@style/roundEditTextStyle"
+            android:background="@drawable/edit_text_background"
+            android:inputType="textPersonName"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:hint="     Name"/>
+        <EditText
+            android:id="@+id/ageEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_nature_people_24"
+            style="@style/roundEditTextStyle"
+            android:background="@drawable/edit_text_background"
+            android:inputType="numberDecimal"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:hint="     Age"/>
+        <EditText
+            android:id="@+id/genderEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_wc_24"
+            style="@style/roundEditTextStyle"
+            android:background="@drawable/edit_text_background"
+            android:inputType="textPersonName"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:hint="     Gender"/>
+        <EditText
+            android:id="@+id/emailEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            style="@style/roundEditTextStyle"
+            android:background="@drawable/edit_text_background"
+            android:inputType="textEmailAddress"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:hint="     E-mail"/>
+
+    </LinearLayout>
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:gravity="center"
+       android:layout_height="200dp">
+       <Button
+           android:id="@+id/clearButonId"
+           android:layout_width="150dp"
+           android:layout_height="wrap_content"
+           android:text="Clear"
+           android:drawableLeft="@drawable/ic_baseline_brush_24"
+           android:layout_marginTop="50dp"
+           android:layout_gravity="center"
+           android:foreground="?android:attr/selectableItemBackground"
+           android:layout_marginRight="10dp"
+           android:background="@drawable/circlebackground"
+           style="@style/buttonStyle"/>
+       <Button
+           android:id="@+id/sbmitaccountId"
+           android:layout_width="150dp"
+           android:layout_height="wrap_content"
+           android:text="Submit"
+           android:drawableLeft="@drawable/ic_baseline_done_24"
+           android:layout_marginTop="50dp"
+           android:layout_marginLeft="10dp"
+           android:layout_gravity="center"
+           android:foreground="?android:attr/selectableItemBackground"
+           android:background="@drawable/circlebackground"
+           style="@style/buttonStyle"/>
+   </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressId"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

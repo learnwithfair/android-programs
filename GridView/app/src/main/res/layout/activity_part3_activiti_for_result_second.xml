@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:gravity="center"
+    android:padding="10dp"
+    android:id="@+id/Part3ActivitiForResultSecondActivityId"
+    tools:context=".Part3ActivitiForResultSecondActivity">
+
+    <EditText
+        android:id="@+id/part3ActivityForResultUserNameEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        style="@style/roundEditTextStyle"
+        android:background="@drawable/edit_text_background"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="40dp"
+        android:hint="     Username"/>
+    <Button
+        android:id="@+id/part3ActivityForResultSubmitButtonId"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:drawableLeft="@drawable/ic_baseline_done_outline_24"
+        style="@style/buttonStyle"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:background="@drawable/circlebackground"/>
+
+</LinearLayout>

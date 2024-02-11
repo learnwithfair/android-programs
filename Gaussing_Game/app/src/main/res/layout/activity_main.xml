@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:fontFamily="monospace"
+      android:text="@string/title"
+      android:textAllCaps="true"
+      android:textColor="@color/colorPrimaryDark"
+      android:textSize="40sp"
+      android:textStyle="bold" />
+
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="3dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:background="#ff22" />
+
+  <EditText
+      android:id="@+id/EditTextId"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="40dp"
+      android:cursorVisible="true"
+      android:hint="@string/input_hints"
+      android:inputType="number"
+      android:textAlignment="center"
+      android:textColor="@android:color/black"
+      android:textCursorDrawable="@null"
+      android:textSize="33sp"
+      android:textStyle="bold|italic"
+      android:autofillHints="Enter input 1 to 5" />
+
+  <Button
+      android:id="@+id/buttonId"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:background="@color/colorPrimary"
+      android:text="@string/check"
+      android:textAllCaps="false"
+      android:textColor="#ff2"
+      android:textSize="24sp" />
+
+  <TextView
+      android:id="@+id/resultTextViewId"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginTop="30dp"
+      android:fontFamily="cursive"
+      android:textColor="@color/colorPrimaryDark"
+      android:textSize="16sp"
+      android:textStyle="italic" />
+</LinearLayout>

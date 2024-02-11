@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/searchViewId"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"
+        />
+    <item
+        android:id="@+id/settingId"
+        android:title="Setting"
+        android:icon="@drawable/ic_baseline_settings_24"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/shareId"
+        android:title="Share"
+        android:icon="@android:drawable/ic_menu_share"
+        app:showAsAction="withText"
+        />
+<item
+        android:id="@+id/feedbackId"
+        android:title="Feedback"
+        app:showAsAction="never"
+        />
+<item
+        android:id="@+id/aboutId"
+        android:title="About Us"
+        app:showAsAction="never"
+        />
+
+</menu>

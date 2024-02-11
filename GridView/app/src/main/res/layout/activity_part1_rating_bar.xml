@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:id="@+id/Part1RatingBarActivityId"
+    tools:context=".Part1RatingBarActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rating Bar"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        />
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:padding="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#ff2"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <RatingBar
+            android:id="@+id/part1RatingBarId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="7"
+            android:progressTint="#FF2294"
+            android:rating="4"
+            android:progressBackgroundTint="#ABACAC"
+            android:stepSize="0.5"/>
+        <TextView
+           android:id="@+id/Part1RatingBarTextViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Value 4/7"
+            android:layout_marginTop="20dp"
+            style="@style/textStyle"/>
+    </LinearLayout>
+
+</LinearLayout>

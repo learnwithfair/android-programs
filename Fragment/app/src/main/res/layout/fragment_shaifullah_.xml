@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Shaifullah_Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageViewId"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/saifullah"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="5dp"
+            android:background="#EF0DB6"
+            android:padding="3dp"/>
+        <TextView
+            android:id="@+id/nameTextViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Md Shaifullah Islam"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            />
+        <TextView
+            android:id="@+id/titleTextViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student"
+            android:gravity="center"
+            android:fontFamily="cursive"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="italic"
+            android:textColor="#DD0AA1"
+            />
+        <TextView
+            android:id="@+id/mobileTextViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="01790-000050"
+            android:gravity="center"
+            android:fontFamily="monospace"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textStyle="italic"
+            android:textColor="@android:color/black"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>
