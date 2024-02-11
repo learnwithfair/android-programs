@@ -1,7 +1,7 @@
 Thanks for visiting my github account!!
 ## Android (JAVA)
 
-![logo](https://assets.stickpng.com/images/613098fd48f1e30004910189.png)
+![logo](https://w7.pngwing.com/pngs/638/295/png-transparent-android-software-development-logo-android-text-grass-desktop-wallpaper-thumbnail.png)
 **Android** is an open source and Linux-based operating system for mobile devices such as smartphones and tablet computers. Android was developed by the Open Handset Alliance, led by Google, and other companies. This tutorial will teach you basic Android programming and will also take you through some advance concepts related to Android application development.
 
 ### Required Software 
