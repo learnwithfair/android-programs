@@ -1,28 +1,45 @@
-Thanks for downloading this theme!
+Thanks for visiting my github account!!
+## Android (JAVA)
 
-## Live Visit
-[Click For Live Visit](https://learnwithfair.github.io/html-template-ecommerce-electro-master/)
+![logo](https://assets.stickpng.com/images/613098fd48f1e30004910189.png)
+**Android** is an open source and Linux-based operating system for mobile devices such as smartphones and tablet computers. Android was developed by the Open Handset Alliance, led by Google, and other companies. This tutorial will teach you basic Android programming and will also take you through some advance concepts related to Android application development.
 
-## For More Website Demo
-Visit -> https://themewagon.com/theme-tag/restaurant-template/
+### Required Software 
+- JDK -> [Download](https://www.oracle.com/java/technologies/downloads/#jdk21-windows)
+- Android Studio Manager->[Download](https://developer.android.com/studio?gclid=CjwKCAiA_aGuBhACEiwAly57MUzgkiuKNDZDONVUh68zhr_aXqzRxIqK-VLE721HiNpV4DCBdvhPUxoCiQIQAvD_BwE&gclsrc=aw.ds)
+- SDK (Auto Download with Studio Manager)
+- Netbeans (Optional) ->[Download](https://www.apache.org/dyn/closer.lua/netbeans/netbeans-installers/20/Apache-NetBeans-20r1-bin-windows-x64.exe)
 
-## Project Screenshot
+### For Create Custom Background 
+- Adobe xd-> [Download](https://getintopc.com/softwares/development/adobe-xd-cc-2022-free-download/?id=000464023214)
 
-|   |   |   |
-|:---:|:---:|:---:|
-|Home|Product|Store|
-|![Index](https://github.com/learnwithfair/android-programs/screenshot/overview.png)|![Product](https://github.com/learnwithfair/html-template-ecommerce-electro-master/assets/103452668/0de8d398-c320-4efc-84d9-ac58587705b5)| ![Store](https://github.com/learnwithfair/html-template-ecommerce-electro-master/assets/103452668/80fd582f-73e3-486d-8522-6593560789b7)|
-|Checkout|Regular|
-|![Checkout](https://github.com/learnwithfair/html-template-ecommerce-electro-master/assets/103452668/8cb9351f-0b0e-4120-a58e-f42496e1ba90)| ![Regular](https://github.com/learnwithfair/html-template-ecommerce-electro-master/assets/103452668/90dbe504-5ee2-4e6b-9844-f8dcd3d1ebc6)|
-## Other Useful Links
+## Instalization Process
+- JDK -> [Click Here](https://www.youtube.com/watch?v=QKKdrgGQljA&list=PLgH5QX0i9K3p9xzYLFGdfYliIRBLVDRV5&index=4)
+- Android Studio Manager -> [Click Here](https://www.youtube.com/watch?v=7nae6RM9we0&list=PLgH5QX0i9K3p9xzYLFGdfYliIRBLVDRV5&index=5)
 
-**ThemeWagon** is a great source for downloading free HTML templates built with the latest technology.
+## Source Code (Download)
+- All Files -> [Click Here](https://learnwithfair.github.io/html-template-ecommerce-electro-master/)
+- My Apps -> [Click Here](https://mega.nz/file/MONFxLoQ#p_juwz6HxkkmMzhNHQJszPFbYn8_tv0HXI1UO9UEN4I)
+- Slide -> [Click Here](https://mega.nz/file/RP9CQJyD#fEMtA6zuI6Py57f9sdcZloebBxD1HIOv5Qm_hX1sFdo)
 
-To download free templates, follow this link: https://themewagon.com/theme_tag/free/
+## My Apps
+[Click Here](https://mega.nz/file/MONFxLoQ#p_juwz6HxkkmMzhNHQJszPFbYn8_tv0HXI1UO9UEN4I)
 
-Besides that, you can buy our premium templates to make your web development experience unforgettable.
+## For More Information
+- Visit -> https://www.tutorialspoint.com/android/index.htm
+- Visit -> https://developer.android.com/courses/android-basics-compose/course
 
-Visit the store from here: https://themewagon.com/theme-categories/premium-templates/
+## Project Features
 
+|   |   |
+|:---:|:---:|
+|Overview|Product|
+|![overview](https://github.com/learnwithfair/android-programs/blob/main/screenshot/overview.png)|![Product](https://github.com/learnwithfair/html-template-ecommerce-electro-master/assets/103452668/0de8d398-c320-4efc-84d9-ac58587705b5)|
+|Part-1|Part-2|
+|![Checkout](https://github.com/learnwithfair/android-programs/blob/main/screenshot/1.png)| ![Regular](https://github.com/learnwithfair/android-programs/blob/main/screenshot/2.png)|
+|Part-3|Part-4|
+|![Checkout](https://github.com/learnwithfair/android-programs/blob/main/screenshot/3.png)| ![Regular](https://github.com/learnwithfair/android-programs/blob/main/screenshot/4.png)|
+|Part-5|
+|![Checkout](https://github.com/learnwithfair/android-programs/blob/main/screenshot/5.png)|
 
 
