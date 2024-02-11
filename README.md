@@ -17,6 +17,8 @@ Thanks for visiting my github account!!
 - JDK -> [Click Here](https://www.youtube.com/watch?v=QKKdrgGQljA&list=PLgH5QX0i9K3p9xzYLFGdfYliIRBLVDRV5&index=4)
 - Android Studio Manager -> [Click Here](https://www.youtube.com/watch?v=7nae6RM9we0&list=PLgH5QX0i9K3p9xzYLFGdfYliIRBLVDRV5&index=5)
 
+Note: Virtualization Must Be Enabled
+
 ## Source Code (Download)
 - All Files -> [Click Here](https://learnwithfair.github.io/html-template-ecommerce-electro-master/)
 - My Apps -> [Click Here](https://mega.nz/file/MONFxLoQ#p_juwz6HxkkmMzhNHQJszPFbYn8_tv0HXI1UO9UEN4I)
@@ -33,13 +35,13 @@ Thanks for visiting my github account!!
 
 |   |   |
 |:---:|:---:|
-|Overview|Product|
-|![overview](https://github.com/learnwithfair/android-programs/blob/main/screenshot/overview.png)|![Product](https://github.com/learnwithfair/html-template-ecommerce-electro-master/assets/103452668/0de8d398-c320-4efc-84d9-ac58587705b5)|
+|Overview|List|
+|![overview](https://github.com/learnwithfair/android-programs/blob/main/screenshot/overview.png)|![Android-Overview](https://github.com/learnwithfair/android-programs/blob/main/screenshot/Android-Overview.jpg)|
 |Part-1|Part-2|
-|![Checkout](https://github.com/learnwithfair/android-programs/blob/main/screenshot/1.png)| ![Regular](https://github.com/learnwithfair/android-programs/blob/main/screenshot/2.png)|
-|Part-3|Part-4|
-|![Checkout](https://github.com/learnwithfair/android-programs/blob/main/screenshot/3.png)| ![Regular](https://github.com/learnwithfair/android-programs/blob/main/screenshot/4.png)|
-|Part-5|
-|![Checkout](https://github.com/learnwithfair/android-programs/blob/main/screenshot/5.png)|
+|![Part](https://github.com/learnwithfair/android-programs/blob/main/screenshot/1.png)| ![Part](https://github.com/learnwithfair/android-programs/blob/main/screenshot/2.png)|
+|Part-4|Part-5|
+|![Part](https://github.com/learnwithfair/android-programs/blob/main/screenshot/3.png)| ![Part](https://github.com/learnwithfair/android-programs/blob/main/screenshot/4.png)|
+|Part-6|
+|![Part](https://github.com/learnwithfair/android-programs/blob/main/screenshot/5.png)|
 
 
